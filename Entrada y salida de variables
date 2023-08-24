@@ -1,0 +1,15 @@
+nombre= str(input('ingrese su nombre: '))
+ciudad= str(input('ciudad: '))
+
+from datetime import date 
+from datetime import datetime
+
+y = date.today().year
+print(y)
+
+año= int(input('año de nacimiento: '))
+edad= y - año
+
+edad_en_meses= edad * 12
+
+print(f"{nombre} su edad es {edad} años o {edad_en_meses} meses")
